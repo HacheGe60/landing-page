@@ -12,9 +12,10 @@ body {
 
 header {
     background-color: #1f2937;
+    padding-bottom: 4rem;
 }
 
-nav, .title {
+nav {
     width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -34,7 +35,8 @@ nav, .title {
     color: #e5e7eb;
 }
 
-.navbar ul li a, .text {
+.navbar ul li a,
+.title-left .text {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
@@ -53,6 +55,20 @@ nav, .title {
     width: 30px;
 }
 
+.title {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .title-left .heading {
     font-size: 48px;
     font-weight: 900;
@@ -60,8 +76,27 @@ nav, .title {
 }
 
 .title-left .heading span {
-    font-size: 48px;
     font-weight: 400;
     font-style: italic;
+}
+
+.title-left .btn {
+    background-color: #3882f6;
+    padding: 8px;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
     color: #f9faf8;
+    cursor: pointer;
+}
+
+.title-left .btn:hover {
+    opacity: .9;
+    color: white;
+}
+
+.title img {
+    width: 500px;
+    height: 230px;
+    object-fit: cover;
 }
