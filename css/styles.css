@@ -255,6 +255,7 @@ footer {
         padding: .8rem 1.6rem;
     }
 }
+
 @media (max-width: 970px) {
 
     .navbar ul li a,
@@ -263,8 +264,7 @@ footer {
     }
     .logo a {
         font-size: 16px;
-
-    column-gap: 0.5rem;
+        column-gap: 0.5rem;
     }
     .logo img {
         width: 20px;
